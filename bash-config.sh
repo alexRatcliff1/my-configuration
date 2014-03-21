@@ -5,4 +5,5 @@ export PATH=$PATH:$(dirname "${BASH_SOURCE[0]}")/bin
 alias sl='ls'
 alias greprn='grep -rn'
 alias greprin='grep -rin'
+alias f='file'
 
