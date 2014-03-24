@@ -1,9 +1,9 @@
 "go configuration
-filetype off
-filetype plugin indent off
-set runtimepath+=$GOROOT/misc/vim
-filetype plugin indent on
-syntax on
+"filetype off
+"filetype plugin indent off
+"set runtimepath+=$GOROOT/misc/vim
+"filetype plugin indent on
+"syntax on
 
 "Improve autocompletion
 set completeopt=longest,menuone
