@@ -3,7 +3,7 @@ my-configuration
 
 I'm using this repo to store all of my configuration I use. Feel free to copy from it, much of it is copied from elsewhere.
 
-bash-configuration.sh
+bash-config.sh
 ---
 Adds system non-specific bash configuration to the environment. This includes adding my-configuration/bin to the path and setting up aliases.
 
