@@ -22,4 +22,5 @@ bin
 ---
 Small scripts that I want to be able to execute from everywhere.
 
+dependencies: gawk, xmodmap
 installation: Add bin to path (already done by bash-configuration.sh)

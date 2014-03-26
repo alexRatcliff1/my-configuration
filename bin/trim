@@ -1,0 +1,14 @@
+awk '
+BEGIN { first_line=1; }
+{
+    sub(/^[[:space:]]*/,"");
+    sub(/[[:space:]]*$/,"");
+    if ($0) {
+        if (first_line) {
+            printf $0;
+            first_line=0;
+        } else {
+            printf " " $0;
+        }
+    }
+}'
