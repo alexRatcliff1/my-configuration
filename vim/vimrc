@@ -20,3 +20,6 @@ set autoindent
 
 "remap 'q' to quit.
 nmap q :q<CR>
+
+"Emulate windows ctrl-c in visual mode using xclip
+vmap <C-c> !xclip -selection clipboard -f<CR>
