@@ -18,9 +18,25 @@ installation:
 * symlink ~/.i3status.conf to i3/i3status.conf
 * symlink ~/.i3 to i3
 
+i3
+---
+My vim configuration and plugins.
+
+installation:
+
+* symlink ~/.vimrc to vim/vimrc
+* symlink ~/.vim to vim
+
 bin
 ---
 Small scripts that I want to be able to execute from everywhere.
 
-dependencies: gawk, xmodmap
 installation: Add bin to path (already done by bash-configuration.sh)
+
+dependencies
+---
+The following programs are assumed to be installed by various bits of scripts and configuration
+
+* gawk
+* xmodmap
+* xclip
