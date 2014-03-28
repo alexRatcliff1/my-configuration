@@ -7,4 +7,5 @@ alias greprn='grep -rn'
 alias greprin='grep -rin'
 alias f='file'
 alias ctrlc='xclip -selection clipboard'
+alias g='git'
 
