@@ -22,4 +22,4 @@ set autoindent
 nmap q :q<CR>
 
 "Emulate windows ctrl-c in visual mode using xclip
-vmap <C-c> :B !xclip -selection clipboard -f<CR>
+vmap <C-c> :B !sed 1s/^.// \| xclip -selection clipboard -f<CR>g`>lxg`<
