@@ -18,7 +18,7 @@ installation:
 * symlink ~/.i3status.conf to i3/i3status.conf
 * symlink ~/.i3 to i3
 
-i3
+vim
 ---
 My vim configuration and plugins.
 
