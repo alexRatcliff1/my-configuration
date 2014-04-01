@@ -162,5 +162,7 @@ bar {
 
 # move desktop to workspace 10
 for_window [title="Desktop"] move container to workspace Desktop
-# float Update Manager on workspace 10
+# Stuff I want to move to desktop
 for_window [title="Update Manager"] floating enable, move container to workspace Desktop
+# Stuff I want floating
+for_window [title="Calculator"] floating enable
