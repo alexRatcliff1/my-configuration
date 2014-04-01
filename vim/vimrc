@@ -25,3 +25,6 @@ nmap q :q<CR>
 "Emulate windows ctrl-c in visual mode using xclip
 "vmap <C-c> :B !sed 1s/^.// \| xclip -selection clipboard -f<CR>g`>lxg`<
 vmap <C-c> "+y
+"map ctrl-P to paste from clipboard register
+map <C-p> "+p
+map <C-P> "+P
