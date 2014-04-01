@@ -1,0 +1,9 @@
+#!/bin/sh
+if [ ! -d "$1" ]; then
+    echo "Not a directory"
+    exit 1
+fi
+
+OUTNAME=`basename $1)`.tgz
+
+tar c $1 | gzip - > $OUTNAME
