@@ -9,3 +9,7 @@ alias f='file'
 alias ctrlc='xclip -selection clipboard'
 alias g='git'
 
+#Prefered program environment variables
+export EDITOR="vim"
+export VISUAL="vim"
+export BROWSER="chromium-browser google-chrome firefox"
