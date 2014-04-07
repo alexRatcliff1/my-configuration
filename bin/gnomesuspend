@@ -2,7 +2,7 @@
 printf "Are you sure you want to suspend? [y/n]: "
 read ANSWER
 if [ "y" = "$ANSWER" -o "Y" = "$ANSWER" ]; then
-    dbus-send --system --print-reply \
+    sudo dbus-send --system --print-reply \
     --dest="org.freedesktop.UPower" \
     /org/freedesktop/UPower \
     org.freedesktop.UPower.Suspend
