@@ -8,6 +8,7 @@ alias greprin='grep -rin'
 alias f='file'
 alias ctrlc='xclip -selection clipboard'
 alias g='git'
+alias count='wc -l'
 
 #Prefered program environment variables
 export EDITOR="vim"

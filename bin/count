@@ -1,2 +1,0 @@
-#!/bin/sh
-awk 'BEGIN {a=0;} {a++;} END{ print a " line" ((a==1)?"":"s");}'
