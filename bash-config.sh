@@ -9,6 +9,7 @@ alias f='file'
 alias ctrlc='xclip -selection clipboard'
 alias g='git'
 alias count='wc -l'
+alias ding='echo -e "\a"'
 
 #Prefered program environment variables
 export EDITOR="vim"
