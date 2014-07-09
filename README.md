@@ -40,3 +40,7 @@ The following programs are assumed to be installed by various bits of scripts an
 * gawk
 * xmodmap
 * xclip
+
+note
+---
+Undocumented files in the root directory are just dotfiles. Add a symlink to them with a . in front in your home directory.
