@@ -18,6 +18,8 @@ set shiftwidth=4
 set expandtab
 set autoindent
 
+set hlsearch
+
 "remap 'q' to quit.
 nmap q :q<CR>
 
