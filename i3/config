@@ -24,7 +24,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+Q kill
 
 # start a program launcher
-bindsym $mod+d exec dmenu
+bindsym $mod+d exec dmenu_run
 
 
 # Make the currently focused window a scratchpad
